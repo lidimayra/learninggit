@@ -1,5 +1,5 @@
 if num < 0:
-    isNeg = True
+    isNeg = False
     num = abs(num)
 else:
     isNeg = False

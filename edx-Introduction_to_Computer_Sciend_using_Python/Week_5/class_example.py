@@ -11,7 +11,7 @@ class Cordinate(object):
 	def __str__(self):
 		return  "<" + self.x + ", " + self.y + ">"
 
-c = Cordinate(2, 2)
+c = Cordinate(2, 232)
 print(isinstance(c, Cordinate))
 print(Cordinate, type(c))
 print(c.getX())
