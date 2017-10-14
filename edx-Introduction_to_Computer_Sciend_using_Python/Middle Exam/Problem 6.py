@@ -6,7 +6,7 @@ Created on Sun Sep 17 15:29:11 2017
 """
 
 def flatten(aList):
-    newList = {}
+    newList = []
     complement(newList, aList)
     return newList
     
